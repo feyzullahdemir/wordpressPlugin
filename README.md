@@ -1,4 +1,9 @@
 # wordpressPlugin
+Basit Şekilde Wordpress plugin oluşturma gösterilmiştir.
+index.php dosyası oluşturarak işe başlıyoruz  indexçphp dışında bir dosya oluşturacak isek wordpress bu dosyayı algılaması için define ile göstermemiz gerekir.
+İndex.php içine şöyle yazıyoruz 
+
+
 ```
 <?php 
 
@@ -35,6 +40,7 @@ add_action("admin_menu" , "plugin");
 
 function plugin () {
 	//bura  da plugin hakkında özellikleri giriyoruz en son yazdığımız ise çalıştırması gerek fonskiyon
+	
 add_menu_page("PluginTitle" , "PluginName", "manage_options" , "pluginSite" , "pluginContents");
 
 }
@@ -101,3 +107,15 @@ add_action( 'wp_footer', 'footerName' );
 
 
 ```
+-----
+<img width="1440" alt="Screen Shot 2022-03-17 at 5 34 34 PM" src="https://user-images.githubusercontent.com/101548542/158829299-ca9a6f55-9096-4f33-8eff-6d86d6d0d798.png">
+
+-----
+<img width="1440" alt="Screen Shot 2022-03-17 at 4 42 20 PM" src="https://user-images.githubusercontent.com/101548542/158828858-08a89f8d-30b3-4f50-a53b-d336dea3a8ae.png">
+------
+
+<img width="1440" alt="Screen Shot 2022-03-17 at 4 46 14 PM" src="https://user-images.githubusercontent.com/101548542/158829071-abe6d666-4e71-419e-99f0-28e511417ce4.png">
+------
+<img width="1440" alt="Screen Shot 2022-03-17 at 4 59 19 PM" src="https://user-images.githubusercontent.com/101548542/158829427-3cff55d6-1919-4fc5-a0b7-939d5297ca5a.png">
+
+------
