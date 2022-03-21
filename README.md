@@ -64,11 +64,7 @@ function pluginContents ()
 
 <?php
 //Yukarıda Basit bir form oluşturduk burada ki 2 değeri post edip ekrana yazdıracağız.
-/*if(isset($_POST['Gönder']))
-{
-	echo $_POST['fname'];
-	echo $_POST['lname'];
-}*/
+
 
 //Yukarıda ise post ettiğimiz değerleri ekrana yazdırdık şimdi bunları veri tabanına ekleyelim ilk önce veri tabanı oluşturamamız gerekiyor bunun içinde wpdb parametersini kullanacağız.
 
