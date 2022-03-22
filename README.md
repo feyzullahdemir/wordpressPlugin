@@ -4,7 +4,7 @@ index.php dosyası oluşturarak işe başlıyoruz  indexçphp dışında bir dos
 İndex.php içine şöyle yazıyoruz 
 
 
-```
+```PHP
 <?php 
 
 /*
